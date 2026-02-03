@@ -19,3 +19,10 @@ echo "Username is: $USER_ NAME"
 
 echo "Enter the Password"
 read -s PASSWORD
+
+
+#to track the command how long it took to execute
+
+TimeStamp=$(date)
+
+echo "The script started time is :$TimeStamp"
