@@ -15,10 +15,12 @@ echo "$PERSON2 : Thanks for the welcome message"
 echo "Enter the Username"
 read USER_NAME
 
-echo "Username is: $USER_ NAME"
+echo "Username is: $USER_NAME"
 
 echo "Enter the Password"
 read -s PASSWORD
+
+echo "Password is: $PASSWORD"
 
 
 #to track the command how long it took to execute
