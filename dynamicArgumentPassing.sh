@@ -25,6 +25,11 @@ read -s PASSWORD
 
 #to track the command how long it took to execute
 
-TimeStamp=$(date)
+StartTime=$(date)
 
-echo "The script started time is :$TimeStamp"
+echo "The script started time is :$StartTime"
+
+sleep 10 
+
+EndTime=$(date +%s)
+echo "The script ended time is :$EndTime"
