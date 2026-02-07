@@ -20,7 +20,7 @@ echo "Username is: $USER_NAME"
 echo "Enter the Password"
 read -s PASSWORD
 
-echo "Password is: $PASSWORD"
+#echo "Password is:  $PASSWORD"
 
 
 #to track the command how long it took to execute
