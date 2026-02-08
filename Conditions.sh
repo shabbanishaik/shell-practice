@@ -2,19 +2,19 @@
 
 Numbers=$1
 
-if [ Nuumbers -gt 20]
+if [ Numbers -gt 20]
 
 then
 
-echo "the no. is greater then 20"
+echo "the $Numbers is greater than 20"
 
 elif [Numbers -eq 20]
 
 then
 
-echo "the no. is equal to 20"
+echo "the $Numbers no. is equal to 20"
 
 else
-echo "the no. is less than 20"
+echo "the $Numbers no. is less than 20"
 
 fi
