@@ -1,4 +1,4 @@
-
+#!/bin/bash
 
 Numbers=$1
 
