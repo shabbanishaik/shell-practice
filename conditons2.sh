@@ -13,9 +13,9 @@
 
  fi
 
- echo "Installing Nginx Web Server"
+ echo "Installing ngnix Web Server"
 
- dnf install nginix -y
+ dnf install ngnix -y
 
  if [ $? -ne 0 ];
 
@@ -25,7 +25,7 @@
  exit 1
 
  else
-    echo "Installation successful"
+    echo "ngnix Installation successful"
  
  fi
 
