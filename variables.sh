@@ -1,6 +1,7 @@
 #!/bin/bash
 
-
-Name="Zunnu And Arsh are my world"
+A1="Arsh"
+Z1="Zunnu"
+Name="$Z1 And $A1 are my world"
 
 echo $Name
