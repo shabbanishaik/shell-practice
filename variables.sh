@@ -23,4 +23,8 @@ echo "Enter the Password:"
 
 read -s User_Password
 
-echo "Your Password is $User_Password"
+echo "Your Password is $User_Password" 
+
+
+TimeStamp=$(date)
+echo "The TimeStamp is $TimeStamp"
