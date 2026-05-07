@@ -2,8 +2,10 @@
 #!/bin/bash
 
 
-Start_Time=$(data +%s)
+Start_Time=$(date +%s)
 echo "The Start Time is $Start_Time"
+
+sleep 10
 
 End_Time=$(date +%s)
 echo "The End Time is $End_Time"
