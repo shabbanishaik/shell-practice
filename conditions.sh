@@ -4,7 +4,7 @@
 
 validateUser= $1;
 
-if  [ "$validateUser" -eq $1]; then 
+if  [ "$validateUser" -eq $1 ]; then 
 
    echo "this is an root user"
 else
