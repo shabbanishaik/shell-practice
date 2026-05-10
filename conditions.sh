@@ -20,7 +20,7 @@ if [ $USERID -ne 0 ]; then
  fi
 
  echo "Installing Nginx web"
- dnf install nginx y
+ dnf install nginx -y
 
  if [$? -ne 0 ]; then
     echo "Failed to install Nginx web server."
