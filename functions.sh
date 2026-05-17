@@ -10,10 +10,10 @@ fi
 
 validateCode(){
     if [ $1 -ne 0 ]; then
-        echo "Failed to uninstall Nginx web server."
+        echo "$2...Failure."
         exit 1
     else
-        echo " $2...Nginx web server uninstalled successfully."
+        echo "$2...Success."
     fi
 
 }
@@ -21,6 +21,10 @@ validateCode(){
 
 dnf remove nginx -y 
 validateCode $? , "unInstalling Nginx web server"
+
+
+dnf install mysql -y
+validateCode $? , "Installing MySQL database server"
 
 
 
