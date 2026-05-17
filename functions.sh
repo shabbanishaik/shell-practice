@@ -2,7 +2,7 @@
 
 getUser=$(id -u)
 
-if [ $getUser -ne 0]; then  
+if [ $getUser -ne 0 ]; then  
     echo "Please run the script as root user."
     exit 1
 fi
