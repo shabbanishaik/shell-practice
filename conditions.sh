@@ -19,6 +19,18 @@ if [ $USERID -ne 0 ]; then
     exit 1
  fi
 
+ Validate(){
+    if [$? -ne 0 ]; then
+    echo "Failed to install Nginx web server."
+    exit 1
+ 
+ else 
+     echo "Nginx web server installed successfully."
+ fi
+
+
+ }
+
  echo "Installing Nginx web"
  dnf install nginx -y
 
