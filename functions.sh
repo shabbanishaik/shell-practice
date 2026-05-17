@@ -19,12 +19,12 @@ validateCode(){
 }
 
 
-dnf remove nginx -y 
-validateCode $? , "unInstalling Nginx web server"
+# dnf remove nginx -y 
+# validateCode $?  "unInstalling Nginx web server"
 
 
 dnf install mysql -y
-validateCode $? , "Installing MySQL database server"
+validateCode $?  "UnInstalling MySQL database server"
 
 
 
